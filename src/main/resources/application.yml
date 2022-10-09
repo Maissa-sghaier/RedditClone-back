@@ -1,0 +1,43 @@
+#Database Properties
+spring: 
+  datasource:
+    driver-class-name: "com.mysql.cj.jdbc.Driver"
+    url: "jdbc:mysql://localhost:3306/reddit_clone"
+    username: "root"
+    password: "May1997!"
+  jpa:
+    properties:
+      hibernate:
+        dialect: "org.hibernate.dialect.MySQL8Dialect"
+    hibernate:
+      ddl-auto: update
+      show-sql: true  
+  mail:
+    host: "smtp.mailtrap.io"
+    port: 25
+    username: "ebf2765fc560af"
+    password: "ee967d3530c70a"
+    protocol: "smtp"
+server:
+  port: 8080
+access-token:
+  private: "access-refresh-token-keys/access-token-private.key"
+  public: "access-refresh-token-keys/access-token-public.key"
+refresh-token:
+  private: "access-refresh-token-keys/refresh-token-private.key"
+  public: "access-refresh-token-keys/refresh-token-public.key"
+#spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+#spring.datasource.url=jdbc:mysql://localhost:3306/reddit_clone
+#spring.datasource.username=root
+#spring.datasource.password=May1997!
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+#spring.jpa.hibernate.ddl-auto=update
+#spring.jpa.show-sql=true
+#server.port=8080
+#Mail Properties
+#spring.mail.host=smtp.mailtrap.io
+#spring.mail.port=25
+#spring.mail.username=ebf2765fc560af
+#spring.mail.password=ee967d3530c70a
+#spring.mail.protocol=smtp
+#JWT

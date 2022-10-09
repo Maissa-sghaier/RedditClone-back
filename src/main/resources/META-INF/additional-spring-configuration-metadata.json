@@ -1,0 +1,52 @@
+{"properties": [
+  {
+    "name": "access-token.private",
+    "type": "java.lang.String",
+    "description": "A description for 'access-token.private'"
+  },
+  {
+    "name": "refresh-token.private",
+    "type": "java.lang.String",
+    "description": "A description for 'refresh-token.private'"
+  },
+  {
+    "name": "refresh-token.public",
+    "type": "java.lang.String",
+    "description": "A description for 'refresh-token.public'"
+  },
+  {
+    "name": "access-token.public",
+    "type": "java.lang.String",
+    "description": "A description for 'access-token.public'"
+  },
+  {
+    "name": "ACCESS_TOKEN_PRIVATE_KEY_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'ACCESS_TOKEN_PRIVATE_KEY_PATH'"
+  },
+  {
+    "name": "ACCESS_TOKEN_PUBLIC_KEY_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'ACCESS_TOKEN_PUBLIC_KEY_PATH'"
+  },
+  {
+    "name": "REFRESH_TOKEN_PRIVATE_KEY_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'REFRESH_TOKEN_PRIVATE_KEY_PATH'"
+  },
+  {
+    "name": "REFRESH_TOKEN_PUBLIC_KEY_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'REFRESH_TOKEN_PUBLIC_KEY_PATH'"
+  },
+  {
+    "name": "spring.jpa.hibernate.show-sql",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.jpa.hibernate.show-sql'"
+  },
+  {
+    "name": "Amapstruct",
+    "type": "java.lang.String",
+    "description": "A description for 'Amapstruct'"
+  }
+]}
