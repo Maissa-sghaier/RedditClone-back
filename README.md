@@ -5,4 +5,4 @@ The was coded in Java within the Spring framework, following an MVC pattern.
 The main functionalities are: 
 *signup:
 
-![](https://github.com/Maissa-sghaier/RedditClone-back/tree/main/src/main/resources/signup.gif)
+![signup](https://user-images.githubusercontent.com/57413702/195394032-c7f648ad-39f5-4422-9cc0-8200fbf72f8f.gif)
